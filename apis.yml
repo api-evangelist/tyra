@@ -1,22 +1,76 @@
 aid: tyra
-name: Tyra
-description: Tyra is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Tyra Biosciences
+description: >-
+  Tyra Biosciences is a clinical-stage biopharmaceutical company (NASDAQ: TYRA)
+  based in Carlsbad, California, focused on developing next-generation precision
+  medicines that address the emergence of tumor resistance and other challenges
+  in existing treatment options. Tyra's proprietary in-house SNAP discovery
+  platform combines advanced protein crystallography with structure-based drug
+  design, producing full structural "SNAPshots" of the real-world interaction
+  between a drug and its target in as little as seven days rather than weeks to
+  months. This rapid, sequential structural iteration lets the team refine
+  molecular designs to angstrom-level precision and design selective inhibitors
+  intended to deliver deeper, more durable responses for patients, including in
+  cancers where resistance mutations block first-generation drugs. Tyra was
+  surfaced as a portfolio company of Canaan Partners. It is a therapeutics
+  company and does not publish a public developer API, SDK, or API
+  documentation surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tyra.bio/wp-content/uploads/2021/08/cropped-favicon-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/tyra/refs/heads/main/apis.yml
+humanURL: https://tyra.bio/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Precision Medicine
+- Drug Discovery
+- Oncology
+- Therapeutics
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tyra-domain-security.yml
+- type: Website
+  url: https://tyra.bio/
+- type: PrivacyPolicy
+  url: https://tyra.bio/privacy-policy/
+- type: TermsOfService
+  url: https://tyra.bio/terms-conditions/
+- type: Support
+  url: https://tyra.bio/contact/
+- type: InvestorRelations
+  url: https://ir.tyra.bio/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tyra-biosciences/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
